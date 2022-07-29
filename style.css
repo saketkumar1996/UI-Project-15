@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: #ffffff;
+}
+h1,
+h4,
+p,
+img,
+li {
+  background-color: transparent;
+}
+.red-btn {
+  width: fit-content;
+  padding: 2vh 3vw;
+  height: 3%;
+  border: none;
+  background-color: #ff3343;
+  color: #ffffff;
+}
+.sec {
+  width: 80vw;
+  margin: 2vh auto;
+}
+.red {
+  color: #ff3343;
+  font-weight: 600;
+  font-size: 1em;
+}
+/* Header starts here */
+.logo {
+  height: 7vh;
+}
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 40vw;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2vh;
+}
+/* Header ends here */
+
+/* hero section starts here */
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.left img {
+  height: 80vh;
+}
+
+.right {
+  width: 50vw;
+}
+.right h1 {
+  font-size: 4em;
+  margin: 2vh 0;
+}
+.right p {
+  font-size: 1.5em;
+  margin: 3vh 0;
+}
+/* hero section ends here */
+
+/* Section-02 starts here */
+.sec-02 .num {
+  font-size: 4em;
+}
+
+.sec-02 {
+  position: relative;
+  margin-top: -10vh;
+}
+.background {
+  width: 45vw;
+  height: 110vh;
+  position: absolute;
+  background-color: rgba(82, 82, 82, 0.268);
+}
+
+/* cards start here */
+.cards {
+  padding: 1vh;
+  padding-top: 10vh;
+  display: flex;
+  justify-content: space-around;
+  margin: 7vh 2vh;
+}
+.card {
+  padding: 1vh;
+  width: 23vw;
+  background-color: rgba(199, 198, 198, 0.137);
+}
+.card:nth-child(2) {
+  background-color: #ff3343;
+}
+.card h4 {
+  font-size: 1.5em;
+  margin: 3vh 0;
+}
+.card p {
+  font-size: 1.2em;
+  margin: 3vh 0;
+}
+.card img {
+  height: 7vw;
+  margin: 3vh 0;
+}
+/* cards ends here */
+.exper {
+  display: flex;
+  justify-content: space-around;
+  margin: 5vh 2vh;
+  padding: 5vh 0;
+}
+.sec-02 .exper p,
+.sec-02 .exper h1 {
+  text-align: center;
+}
+.box {
+  padding: 5% 1vh;
+  width: 30vw;
+}
+table {
+  padding: 1vh;
+  width: 70vw;
+}
+
+table td {
+  background-color: rgba(199, 198, 198, 0.137);
+}
+
+/* Section-02 ends here */
+
+/* Section-03 starts here */
+.top {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 7vh;
+}
+.top .left {
+  width: 50vw;
+}
+.top h1 {
+  font-size: 2.5em;
+}
+.top p {
+  font-size: 1.1em;
+}
+.bottom .container {
+  width: 30vw;
+}
+.bottom .img-container {
+  padding: 2vw;
+  background-color: rgba(199, 198, 198, 0.137);
+  margin-bottom: 3vh;
+  text-align: center;
+}
+.bottom .img-container img {
+  height: 30vh;
+}
+.bottom .row {
+  display: flex;
+  justify-content: space-around;
+  margin: 8vh 0;
+}
+.container h4 {
+  margin: 2vh 0;
+  font-size: 2vw;
+}
+.container p {
+  font-size: 1.2vw;
+}
+/* Section-03 ends here */
+
+/* Banner Starts here */
+.banner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(199, 198, 198, 0.137);
+  padding: 4vw;
+}
+.banner .text-content h1,
+.banner .text-content p {
+  background-color: rgba(199, 198, 198, 0.137);
+}
+.banner .text-content {
+  width: 48vw;
+}
+.banner .text-content h1 {
+  font-size: 3.8em;
+  margin-bottom: 2vh;
+}
+.banner .text-content p {
+  font-size: 1.1em;
+}
+
+/* Banner ends here */
+
+/* Bottom Navigation starts here */
+.bottom-nav ul {
+  margin: 0 auto;
+  list-style: none;
+  width: 30vw;
+  display: flex;
+  padding-top: 3vh;
+  justify-content: space-around;
+}
+/* Bottom Navigation starts here */
+.bottom-header {
+  margin-top: 5vh;
+  padding: 5vh;
+  display: flex;
+  justify-content: safe;
+  background-color: rgba(199, 198, 198, 0.137);
+  position: relative;
+}
+.bottom-header .logo {
+  position: absolute;
+}
+.bottom-header .socials {
+  margin: 0 auto;
+  height: 4vh;
+}
